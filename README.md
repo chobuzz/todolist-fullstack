@@ -1,12 +1,8 @@
 # Todolist-fullstack
 
----
-
 회원가입, 로그인 그리고 페이지별 권한관리 기능을 포함하는 투두리스트 프로젝트입니다.
 
 # 시작 가이드
-
----
 
 ### Requirements
 
@@ -36,8 +32,6 @@ $ npm start
 
 # Stacks
 
----
-
 ## Environment
 
 `<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/>`
@@ -56,27 +50,23 @@ $ npm start
 
 # 화면 구성
 
----
-
 - 회원가입 페이지
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/599f6e82-7928-4b8a-a253-7d3f844feede/ea137fb9-4f77-4f54-9b09-be45c105184e/Untitled.png)
+<img src="./todolist-frontend/image/register-page.png">
 
 - 로그인 페이지
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/599f6e82-7928-4b8a-a253-7d3f844feede/39a9362b-6321-4a6a-8143-93100a5ea986/Untitled.png)
+<img src="./todolist-frontend/image/login-page.png>
 
 - 투두리스트 페이지
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/599f6e82-7928-4b8a-a253-7d3f844feede/23fc07f4-b24d-4f86-8b18-17c0952d7048/Untitled.png)
+<img src="./todolist-frontend/image/todo-page.png">
 
 # 주요 기능
 
----
+### 회원가입, 로그인, 로그아웃 기능
 
-### 회원가입, 로그인 기능
-
-- 회원가입과 로그인 기능
+- 회원가입과 로그인, 로그아웃 기능
 
 ### 투두리스트 기능
 
@@ -90,10 +80,9 @@ $ npm start
 
 ## 아키텍쳐
 
----
-
 - 프론트엔드
 
+```jsx
 📦todolist-frontend
 ┣ 📂public
 ┃ ┣ 📜favicon.ico
@@ -127,9 +116,11 @@ $ npm start
 ┣ 📜.gitignore
 ┣ 📜package-lock.json
 ┣ 📜package.json
+```
 
 - 백엔드
 
+```jsx
 📦todolist-backend
 ┣ 📂.ebextensions
 ┃ ┗ 📜cors.config
@@ -151,3 +142,4 @@ $ npm start
 ┣ 📜package.json
 ┣ 📜procfile
 ┗ 📜todolist-backend.zip
+```
