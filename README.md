@@ -52,7 +52,7 @@ $ npm start
 
 - 로그인 페이지
 
-<img src="./todolist-frontend/image/login-page.png>
+<img src="./todolist-frontend/image/login-page.png">
 
 - 투두리스트 페이지
 
